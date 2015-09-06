@@ -13,6 +13,7 @@
             <div class="book"><img src="/resources/images/fashion-fairytale-sleeping-beauty_sml.jpg" alt="Christian Lacroix And the Tale of Sleeping Beauty" title="Christian Lacroix And the Tale of Sleeping Beauty" onclick="loadHtmlPopup('/camilla-mortons-books/fashion-fairytale-sleeping-beauty.htm')" /></div>            
             <div class="book"><img src="/resources/images/elves-and-the-shoemaker_sml.jpg" alt="Manolo Blahník's and the Tale of the Elves and the Shoemaker" title="Manolo Blahník's and the Tale of the Elves and the Shoemaker" onclick="loadHtmlPopup('/camilla-mortons-books/elves-and-the-shoemaker.htm')" /></div>
             <div class="book"><img src="/resources/images/the-empress-new-clothes_sml.jpg" alt="Diane von Furstenberg And The Tale of the Empress's New Clothes" title="Diane von Furstenberg And The Tale of the Empress's New Clothes" onclick="loadHtmlPopup('/camilla-mortons-books/the-empress-new-clothes.htm')" /></div>
+            <div class="book"><img src="/resources/images/make-life-beautiful_sml.jpg" alt="Make Life Beautiful - Foreword by Diane von Furstenberg" title="Make Life Beautiful - Foreword by Diane von Furstenberg" onclick="loadHtmlPopup('/camilla-mortons-books/make-life-beautiful.htm')" /></div>
         </div>              
     </div>
 </asp:Content>

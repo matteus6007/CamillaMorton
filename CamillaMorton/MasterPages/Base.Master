@@ -26,15 +26,12 @@
                 <div id="Bottom" class="cf">
                     <div id="LeftToolbar">
                         <ul>
-                            <li><a href="/" title="Camilla Morton's homepage"><img src="/resources/images/text/home.png" alt="Home" /></a></li>
-                            <li><a href="/camilla-mortons-biography/" title="Camilla Morton's Biography"><img src="/resources/images/text/biography.png" alt="Camilla Morton's Biography" /></a></li>
-                            <li><a href="/camilla-mortons-books/" title="Camilla Morton's Books"><img src="/resources/images/text/my-books.png" alt="Camilla Morton's Books" /></a></li>
-                            <li><a href="/where-to-buy/" title="Where to buy Camilla Morton's books"><img src="/resources/images/text/where-to-buy.png" alt="Where to buy" /></a></li>
-                            <li><a href="/dedications/" title="Camilla Morton's Dedications"><img src="/resources/images/text/dedications.png" alt="Dedications" /></a></li>
-                            <li><a href="/testimonials/" title="Camilla Morton's Reviews"><img src="/resources/images/text/praise.png" alt="Praise" /></a></li>
-                            <li><a href="/contact-camilla-morton/" title="Contact Camilla Morton"><img src="/resources/images/text/contact-me.png" alt="Contact Camilla Morton" /></a></li>                    
+                            <li><a href="/" title="Camilla Morton's homepage">Home</a></li>
+                            <li><a href="/camilla-mortons-biography/" title="Camilla Morton's Biography">Biography</a></li>
+                            <li><a href="/camilla-mortons-books/" title="Camilla Morton's Books">Books</a></li>
+                            <li><a href="/contact-camilla-morton/" title="Contact Camilla Morton">Contact</a></li>                    
                         </ul>
-                        <p class="socialMedia"><a href="http://www.facebook.com/HowtoWalkinHighHeels?fref=ts" title="Follow me on Facebook"><img src="/resources/images/icons/facebook.jpg" alt="Follow me on Facebook" /></a> <a href="http://twitter.com/fashionlala" title="Follow me on Twitter"><img src="/resources/images/icons/twitter.gif" alt="Follow me on Twitter" /></a></p>
+                        <p class="socialMedia"><a href="https://instagram.com/camillamorton/" title="Follow me on Instagram" /><img src="/resources/images/icons/instagram.png" alt="Instagram" /></a> <a href="http://www.facebook.com/HowtoWalkinHighHeels?fref=ts" title="Follow me on Facebook"><img src="/resources/images/icons/facebook.jpg" alt="Follow me on Facebook" /></a> <a href="http://twitter.com/fashionlala" title="Follow me on Twitter"><img src="/resources/images/icons/twitter.gif" alt="Follow me on Twitter" /></a></p>
                         <div id="twitter_div">
                             <ul id="twitter_update_list">
                             </ul> 
@@ -42,25 +39,12 @@
                     </div>
                     <div id="ContentPH">
                         <div id="Content">
-                            <h1 id="SectionTitlePH"><%= SectionTitle %></h1>
-                            <div id="BreadcrumbPH">
-                                <ul class="cf">
-                                    <li><strong>You are here &gt;</strong></li>
-                                    <li><a href="/" title="Go back to homepage">Home</a></li>
-                                    <asp:Repeater ID="BreadcrumbItems" runat="server">
-                                        <ItemTemplate>
-                                            <li id="Item" runat="server"></li>
-                                        </ItemTemplate>
-                                    </asp:Repeater>
-                                </ul>
-                            </div>
                             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
                             
                             </asp:ContentPlaceHolder>
                         </div>
                     </div>
                 </div>
-                <img src="/resources/images/bottom-fade.png" alt="" />
             </div>
             <div id="Footer">
                 <p class="smallprint">Designed and created by Matt Jones</p>

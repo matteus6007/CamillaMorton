@@ -29,9 +29,6 @@ namespace CamillaMorton.contact_camilla_morton
             //set metadata
             parent.SeoPageDescription = "Contact Camilla Morton";
             parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,contact,email,pr,publishing and freelance projects";
-
-            //set breadcrumb
-            parent.BreadcrumbTrail.Add(new BreadcrumbItem("Contact me"));
         }
     }
 }

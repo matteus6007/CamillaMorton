@@ -29,9 +29,6 @@ namespace CamillaMorton.testimonials
             //set metadata
             parent.SeoPageDescription = "Camilla Morton's reviews";
             parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,press cuttings,what the experts say,ratings,praise,testimonials,reviews,praise for";
-
-            //set breadcrumb
-            parent.BreadcrumbTrail.Add(new BreadcrumbItem("Praise"));
         }
     }
 }

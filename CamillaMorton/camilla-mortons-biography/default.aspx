@@ -4,28 +4,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div id="Biography" class="cf">
-    <p>Camilla Morton is a London-based fashion writer and the author of the international bestseller How to Walk in High Heels which has been translated into over twenty languages worldwide and A Girl for All Seasons / A Year in High Heels. She is also the creator and writer of the 'Fashion Tale Memoir'series: Christian Lacroix and the Tale of Sleeping Beauty, Manolo Blahnik and the Tale of the Elves and the Shoemaker, and Diane von Furstenberg and the Empresses New Clothes.</p>
-    <p>Camilla began her writing career with a column at The Times Newspaper UK 'My Favourite Thing', and then went on to be the runway reporter for <a href="http://www.vogue.co.uk">British Vogue.com</a>, covering the international and couture collections. She has written for several magazines, newspapers, and blogs, including The Wall Street Journal "Off Duty", Time magazine's Style and Design supplement, W magazine, <a href="http://www.net-a-porter.com/">Net-A-Porter.com</a>, <a href="http://www.modelinia.com">Modelinia.com</a>, <a href="http://www.showstudio.com">SHOWstudio.com</a>, <a href="http://www.fashionista.com">Fashionista.com</a> and Harper's Bazaar in UK and US.</p>
-    <p>She currently collaborates with several international, high-end fashion houses and can be often caught reading fairy tales while wearing high heels.</p>
-    <p>Follow her on Twitter <a href="http://twitter.com/fashionlala">@fashionlala</a></p>
-    <p>See <a href="http://showstudio.com/contributor/camilla_morton" title="Camilla Morton on SHOWstudio">Camilla on SHOWstudio</a> and as a guest commentator on their live panel discussions, here are some of our favourites:</p>
-    
-    <h3><a href="http://www.youtube.com/watch?v=fleAreH20JQ" target="_blank">Beckham</a></h3>
-    <iframe id="ytplayer" type="text/html" width="200" height="112.5"
-      src="http://www.youtube.com/embed/fleAreH20JQ?autoplay=0&origin=http://www.camillamorton.com"
-      frameborder="0">
-    </iframe>
+    <p>CAMILLA MORTON is the London-based fashion writer and author of How to Walk in High Heels, and creator of the Fashion Fairytale Memoir Series, featuring Christian Lacroix, Manolo Blahnik and Diane von Furstenberg. Gate-crashing shows from an early age she began her writing career as the runway reporter for Harper’s Bazaar (US) and <a href="http://www.vogue.co.uk">Vogue.co.uk</a>, covering the international and couture collections, before working alongside John Galliano in Paris at both his own label and Christian Dior. Camilla has written for a number of newspapers and glossies and regularly collaborates with several high-end fashion houses. She can often be found in Claridges, reading fairytales in high heels.</p>   
+    <p>Follow on Twitter <a href="http://twitter.com/fashionlala">@fashionlala</a> or Instagram <a href="https://instagram.com/camillamorton/">@camillamorton</a></p>
 
-    <h3><a href="http://www.youtube.com/watch?v=EzM_GfaDDY4" target="_blank">Dior</a></h3>
-    <iframe id="Iframe1" type="text/html" width="200" height="112.5"
-      src="http://www.youtube.com/embed/EzM_GfaDDY4?autoplay=0&origin=http://www.camillamorton.com"
-      frameborder="0">
-    </iframe>
-
-    <h3><a href="http://www.youtube.com/watch?v=GXOlFhIkXo4" target="_blank">St Laurent</a></h3>
-    <iframe id="Iframe2" type="text/html" width="200" height="112.5"
-      src="http://www.youtube.com/embed/GXOlFhIkXo4?autoplay=0&origin=http://www.camillamorton.com"
-      frameborder="0">
-    </iframe>
+    <div id="Books">
+        <div class="cf">
+            <div class="book"><img src="/resources/images/how-to-walk-in-high-heels_sml.jpg" alt="How to Walk in High Heels" title="How to Walk in High Heels" onclick="loadHtmlPopup('/testimonials/how-to-walk-in-high-heels.htm')" /></div>
+            <div class="book"><img src="/resources/images/a-girl-for-all-seasons_sml.jpg" alt="A Girl for all Seasons" title="A Girl for all Seasons" onclick="loadHtmlPopup('/testimonials/a-girl-for-all-seasons.htm')" /></div>
+            <div class="book"><img src="/resources/images/a-year-in-high-heels_sml.jpg" alt="A Year in High Heels" title="A Year in High Heels" onclick="loadHtmlPopup('/testimonials/a-year-in-high-heels.htm')" /></div>
+            <div class="book"><img src="/resources/images/fashion-fairytale-sleeping-beauty_sml.jpg" alt="Christian Lacroix And the Tale of Sleeping Beauty" title="Christian Lacroix And the Tale of Sleeping Beauty" onclick="loadHtmlPopup('/testimonials/fashion-fairytale-sleeping-beauty.htm')" /></div>            
+            <div class="book"><img src="/resources/images/elves-and-the-shoemaker_sml.jpg" alt="Manolo Blahník's and the Tale of the Elves and the Shoemaker" title="Manolo Blahník's and the Tale of the Elves and the Shoemaker" onclick="loadHtmlPopup('/testimonials/elves-and-the-shoemaker.htm')" /></div>
+        </div>
+    </div>
 </div>
 </asp:Content>

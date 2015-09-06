@@ -1,6 +1,6 @@
 ﻿#Biography .photo{float:left;margin:0 10px 10px 0}
 #Books{height:300px}
-#Books .book{border:solid 1px #d5d3d3;float:left;margin:0 5px 0}
+#Books .book{border:solid 1px #d5d3d3;float:left;margin:0 5px 5px}
 #Books .book img{cursor:pointer}
 #Books .bookInfo{border:0;height:400px;margin:0 0 10px;width:400px}
 #Dedications h2{margin:0 0 10px}

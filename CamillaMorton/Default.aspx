@@ -5,8 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <div id="Homepage">
-    <p class="new-book"><a href="http://www.harpercollins.com/books/Diane-von-Furstenberg-and-the-Tale-of-the-Empresss-New-Clothes-Camilla-Morton?isbn=9780061917325" title="Buy Diane von Furstenberg And The Tale of the Empress's New Clothes now from HarperCollins" target="_blank"><img src="/resources/images/the-empress-new-clothes.jpg" alt="Diane von Furstenberg And The Tale of the Empress's New Clothes" /></a></p>
-    <p class="buy-now"><a href="http://www.harpercollins.com/books/Diane-von-Furstenberg-and-the-Tale-of-the-Empresss-New-Clothes-Camilla-Morton?isbn=9780061917325" title="Buy Diane von Furstenberg And The Tale of the Empress's New Clothes now from HarperCollins" target="_blank"><img src="/resources/images/buy-now.png" alt="Out November 2012 from HarperCollins" /></a></p>      
+    <p class="new-book"><img src="/resources/images/make-life-beautiful.jpg" alt="Make Life Beautiful - Foreword by Diane von Furstenberg" /></p>
 </div>
 </asp:Content>
 

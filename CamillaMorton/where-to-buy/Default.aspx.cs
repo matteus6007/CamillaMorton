@@ -27,8 +27,5 @@ public partial class where_to_buy_Default : System.Web.UI.Page
         //set metadata
         parent.SeoPageDescription = "Where to buy Camilla Morton's books";
         parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,How to Walk in High Heels,Girl for all seasons,A year in high heels,high heels,fashion,style,buy books";
-
-        //set breadcrumb
-        parent.BreadcrumbTrail.Add(new BreadcrumbItem("Where to buy..."));
     }
 }

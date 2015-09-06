@@ -16,7 +16,6 @@ namespace CamillaMorton.MasterPages
         private string _seoPageTitle;
         private string _seoPageDescription;
         private string _seoPageKeywords;
-        private List<BreadcrumbItem> _breadcrumbTrail = new List<BreadcrumbItem>();
 
         #endregion
 
@@ -64,60 +63,16 @@ namespace CamillaMorton.MasterPages
             set { _seoPageKeywords = value; }
         }
 
-        /// <summary>
-        /// Breadcrumb trail
-        /// </summary>
-        public List<BreadcrumbItem> BreadcrumbTrail
-        {
-            get { return _breadcrumbTrail; }
-            set { _breadcrumbTrail = value; }
-        }
-
         #endregion
 
         protected void Page_Init(object sender, EventArgs e)
         {
-            BreadcrumbItems.ItemDataBound += new RepeaterItemEventHandler(BreadcrumbItems_ItemDataBound);
         }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            BreadcrumbItems.DataSource = BreadcrumbTrail;
-            BreadcrumbItems.DataBind();
-
             PageDescription.Content = SeoPageDescription;
             PageKeywords.Content = SeoPageKeywords;
         }
-
-        #region Events
-
-        void BreadcrumbItems_ItemDataBound(object sender, RepeaterItemEventArgs e)
-        {
-            BreadcrumbItem item = (BreadcrumbItem)e.Item.DataItem;
-            HtmlGenericControl placeholder = (HtmlGenericControl)e.Item.FindControl("Item");
-
-            //add item break
-            placeholder.Controls.Add(new LiteralControl("&gt; "));
-
-            //add link or text
-            if (!string.IsNullOrEmpty(item.Url))
-            {
-                HyperLink link = new HyperLink();
-                link.Text = item.Text;
-                link.NavigateUrl = item.Url;
-                link.ToolTip = item.SeoTitle;
-
-                placeholder.Controls.Add(link);
-            }
-            else
-            {
-                HtmlGenericControl span = new HtmlGenericControl("span");
-                span.InnerText = item.Text;
-
-                placeholder.Controls.Add(span);
-            }
-        }
-
-        #endregion
     }
 }

@@ -26,9 +26,6 @@ namespace CamillaMorton.camilla_morton_biography
             //set metadata
             parent.SeoPageDescription = "Camilla Morton's biography";
             parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,biography,biog";
-
-            //set breadcrumb
-            parent.BreadcrumbTrail.Add(new BreadcrumbItem("Biography"));
         }
     }
 }

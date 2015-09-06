@@ -27,8 +27,5 @@ public partial class camilla_mortons_books_Default : System.Web.UI.Page
         //set metadata
         parent.SeoPageDescription = "Camilla Morton's books";
         parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,How to Walk in High Heels,Girl for all seasons,A year in high heels,books";
-
-        //set breadcrumb
-        parent.BreadcrumbTrail.Add(new BreadcrumbItem("Camilla Morton's books"));
     }
 }

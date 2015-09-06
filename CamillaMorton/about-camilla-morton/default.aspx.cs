@@ -29,9 +29,6 @@ namespace CamillaMorton.about
             //set metadata
             parent.SeoPageDescription = "All about Camilla Morton";
             parent.SeoPageKeywords = "Camilla Morton,Camilla,Morton,about me";
-
-            //set breadcrumb
-            parent.BreadcrumbTrail.Add(new BreadcrumbItem("About me"));
         }
     }
 }

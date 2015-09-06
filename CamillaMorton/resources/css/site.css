@@ -22,10 +22,10 @@ abbr,acronym{border:0}
 /* END: Clearing floats */
 
 /* General layout */
-body{background-color:#c36d88;color:#632035;margin:5px 0}
+body{color:#000;margin:5px 0}
 em{font-style:italic}
 h2{font-size:14px;font-weight:bold}
 h3{font-size:13px;font-weight:bold}
 strong{font-weight:bold}
-.smallprint{font-size:10px}
+#Footer .smallprint{color:#000;font-size:10px}
 .reaction-buttons{clear:left;display:block}
