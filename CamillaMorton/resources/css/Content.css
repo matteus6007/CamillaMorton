@@ -1,0 +1,31 @@
+﻿#Biography .photo{float:left;margin:0 10px 10px 0}
+#Books{height:300px}
+#Books .book{border:solid 1px #d5d3d3;float:left;margin:0 5px 0}
+#Books .book img{cursor:pointer}
+#Books .bookInfo{border:0;height:400px;margin:0 0 10px;width:400px}
+#Dedications h2{margin:0 0 10px}
+#Dedications h3{font-size:12px;font-weight:bold}
+#Homepage{margin:20px 0 0;padding:20px 30px 60px;position:relative}
+#Homepage .new-book{padding-left:175px}
+#Homepage .new-book img{border:solid 1px #d5d3d3}
+#Homepage .buy-now{left:60px;position:absolute;top:100px}
+#Testimonials a{color: #632035}
+#Testimonials a:hover{text-decoration:none}
+#Testimonials .testimonial p.author{color:#C36D88;font-weight:bold;margin-top:0}
+#Testimonials .testimonial p.quote{font-style:italic;margin-bottom:0}
+#Testimonials h2{margin:0 0 10px}
+#WhereToBuy{height:300px}
+#WhereToBuy h2,#WhereToBuy ul{margin:0 0 10px}
+#WhereToBuy ul li a{color:#c36d88}
+#WhereToBuy ul li a:hover{text-decoration:none}
+
+/*Modal Popup*/
+#modalDialog { position:absolute; top:0; left:0; }
+.modal-dialog-background { background:#000000; display:none; height:100%; left:0; position:fixed; top:0; width:100%; z-index:1;}
+.model-dialog-wrapper { background:transparent; display:none; position:fixed; width:500px; z-index:2;}
+.model-dialog-wrapper .close {background-color:#fff;padding:5px;text-align:right}
+.model-dialog-wrapper .close a{color:#632035}
+.model-dialog-wrapper .close a:hover{text-decoration:none}
+.model-dialog-wrapper .modal-dialog-content { background:#FFFFFF; height:300px; padding:8px; overflow:auto }
+.model-dialog-wrapper .modal-dialog-content h2{margin-bottom:8px}
+.model-dialog-wrapper .modal-dialog-content p{padding-bottom:5px}

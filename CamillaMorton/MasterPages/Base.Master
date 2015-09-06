@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="CamillaMorton.MasterPages.Base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title><%= SeoPageTitle %></title>
+	<meta name="Description" id="PageDescription" runat="server" />
+	<meta name="Keywords" id="PageKeywords" runat="server" content="" />    
+    <link rel="Stylesheet" type="text/css" href="/resources/css/site.css" />
+    <link rel="Stylesheet" type="text/css" href="/resources/css/housing.css" />
+    <script type="text/javascript" src="/resources/scripts/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="/resources/scripts/library.js?v=2"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Outer">
+        <div id="Main">
+            <p id="Logo"><a href="/" title="Back to Camilla Morton's homepage"><img src="/resources/images/camilla-morton.png" alt="Camilla Morton" title="Camilla Morton" /></a></p>
+            <div id="TopToolbar">
+                <p><img src="/resources/images/books.png" alt="Camilla Morton's books" /></p>    
+            </div>
+            <div id="BottomPH">
+                <div id="Bottom" class="cf">
+                    <div id="LeftToolbar">
+                        <ul>
+                            <li><a href="/" title="Camilla Morton's homepage"><img src="/resources/images/text/home.png" alt="Home" /></a></li>
+                            <li><a href="/camilla-mortons-biography/" title="Camilla Morton's Biography"><img src="/resources/images/text/biography.png" alt="Camilla Morton's Biography" /></a></li>
+                            <li><a href="/camilla-mortons-books/" title="Camilla Morton's Books"><img src="/resources/images/text/my-books.png" alt="Camilla Morton's Books" /></a></li>
+                            <li><a href="/where-to-buy/" title="Where to buy Camilla Morton's books"><img src="/resources/images/text/where-to-buy.png" alt="Where to buy" /></a></li>
+                            <li><a href="/dedications/" title="Camilla Morton's Dedications"><img src="/resources/images/text/dedications.png" alt="Dedications" /></a></li>
+                            <li><a href="/testimonials/" title="Camilla Morton's Reviews"><img src="/resources/images/text/praise.png" alt="Praise" /></a></li>
+                            <li><a href="/contact-camilla-morton/" title="Contact Camilla Morton"><img src="/resources/images/text/contact-me.png" alt="Contact Camilla Morton" /></a></li>                    
+                        </ul>
+                        <p class="socialMedia"><a href="http://www.facebook.com/HowtoWalkinHighHeels?fref=ts" title="Follow me on Facebook"><img src="/resources/images/icons/facebook.jpg" alt="Follow me on Facebook" /></a> <a href="http://twitter.com/fashionlala" title="Follow me on Twitter"><img src="/resources/images/icons/twitter.gif" alt="Follow me on Twitter" /></a></p>
+                        <div id="twitter_div">
+                            <ul id="twitter_update_list">
+                            </ul> 
+                        </div>                        
+                    </div>
+                    <div id="ContentPH">
+                        <div id="Content">
+                            <h1 id="SectionTitlePH"><%= SectionTitle %></h1>
+                            <div id="BreadcrumbPH">
+                                <ul class="cf">
+                                    <li><strong>You are here &gt;</strong></li>
+                                    <li><a href="/" title="Go back to homepage">Home</a></li>
+                                    <asp:Repeater ID="BreadcrumbItems" runat="server">
+                                        <ItemTemplate>
+                                            <li id="Item" runat="server"></li>
+                                        </ItemTemplate>
+                                    </asp:Repeater>
+                                </ul>
+                            </div>
+                            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                            
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <img src="/resources/images/bottom-fade.png" alt="" />
+            </div>
+            <div id="Footer">
+                <p class="smallprint">Designed and created by Matt Jones</p>
+            </div>            
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+    <script type="text/javascript" src="https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&include_rts=true&screen_name=fashionlala&count=3&callback=twitterCallback2"></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-6262280-1");
+            pageTracker._setDomainName("none");
+            pageTracker._setAllowLinker(true);
+            pageTracker._trackPageview();
+        } catch (err) { }</script>       
+</body>
+</html>

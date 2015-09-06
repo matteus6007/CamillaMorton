@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.camillamorton.com/</loc>
+  <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/camilla-mortons-biography/</loc>
+  <priority>0.75</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/camilla-mortons-books/</loc>
+  <priority>0.85</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/where-to-buy/</loc>
+  <priority>0.90</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/dedications/</loc>
+  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/testimonials/</loc>
+  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/contact-camilla-morton/</loc>
+  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/camilla-mortons-books/how-to-walk-in-high-heels.aspx</loc>
+  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/camilla-mortons-books/a-girl-for-all-seasons.aspx</loc>
+  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.camillamorton.com/camilla-mortons-books/a-year-in-high-heels.aspx</loc>
+  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

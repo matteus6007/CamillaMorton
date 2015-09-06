@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <b:include data='blog' name='all-head-content'/>
+    <title><data:blog.pageTitle/></title>
+    <meta content='Camilla Morton&apos;s Blog' name='Description'/>
+    <meta content='camilla morton,blog,fashion,john galliano,paris,dior,high heels,gisele,catwalk reports,ready to wear,couture,new york,london' name='Keywords'/>
+    <b:skin><![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name: 	  Thisaway (Rose)
+Designer: Dan Rubin
+URL:      www.superfluousbanter.org
+Date:     29 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+
+/* Variable definitions
+   ====================
+   <Variable name="textColor" description="Text Color"
+             type="color" default="#632035" value="#632035">
+   <Variable name="blogTitleColor" description="Blog Title Color"
+             type="color" default="#feeef3" value="#feeef3">
+   <Variable name="blogDescriptionColor" description="Blog Description Color"
+             type="color" default="#feeef3" value="#feeef3">
+   <Variable name="postTitleColor" description="Post Title Color"
+             type="color" default="#ba476b" value="#ba476b">
+   <Variable name="dateHeaderColor" description="Date Header Color"
+             type="color" default="#c88fa2" value="#c88fa2">
+   <Variable name="sidebarHeaderColor" description="Sidebar Title Color"
+             type="color" default="#bd8095" value="#bd8095">
+   <Variable name="mainLinkColor" description="Link Color"
+             type="color" default="#bf277e" value="#bf277e">
+   <Variable name="mainVisitedLinkColor" description="Visited Link Color"
+             type="color" default="#96095a" value="#96095a">
+   <Variable name="sidebarLinkColor" description="Sidebar Link Color"
+             type="color" default="#e25984" value="#e25984">
+   <Variable name="sidebarVisitedLinkColor"
+              description="Sidebar Visited Link Color"
+             type="color" default="#b02c56" value="#b02c56">
+
+   <Variable name="bodyFont" description="Text Font"
+             type="font" default="normal normal 100% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif" value="normal normal 100% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif">
+   <Variable name="headerFont" description="Sidebar Title Font"
+             type="font"
+             default="normal bold 100% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif" value="normal bold 100% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif">
+   <Variable name="pageTitleFont" description="Blog Title Font"
+             type="font"
+             default="normal bold 200% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif" value="normal bold 200% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif">
+   <Variable name="blogDescriptionFont" description="Blog Description Font"
+             type="font"
+             default="normal normal 80% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif" value="normal normal 80% Helvetica,Arial,Verdana,'Trebuchet MS', Sans-serif">
+   <Variable name="startSide" description="Start side in blog language"
+             type="automatic" default="left" value="left">
+   <Variable name="endSide" description="End side in blog language"
+             type="automatic" default="right" value="right">
+*/
+
+/* global
+----------------------------------------------- */
+body {
+  margin: 0;
+  /*text-align: center; */
+  min-width: 760px;
+  color: $textColor;
+  font-size: small;
+}
+
+blockquote {
+  margin: 0;
+  padding-top: 0;
+  padding-$endSide: 10px;
+  padding-bottom: 0;
+  padding-$startSide: 10px;
+  border-$startSide: 6px solid #f7d8e2;
+  border-$endSide: 6px solid #f7d8e2;
+  color: $postTitleColor;
+}
+
+code {
+  color: $postTitleColor;
+}
+
+hr {
+  display: none;
+}
+
+
+/* layout
+----------------------------------------------- */
+#outer-wrapper {
+  margin: 0 auto;
+  width: 760px;
+  text-align: $startSide;
+  font: $bodyFont;
+}
+
+#header-wrapper {
+  padding-bottom: 15px;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_header_bottom.gif) no-repeat $startSide bottom;
+}
+
+#header {
+  background: #632035 url(http://www.blogblog.com/thisaway_rose/bg_header.gif) repeat-x $startSide bottom;
+}
+
+#content-wrapper {
+  position: relative;
+  width: 760px;
+  background: #f7f0e9 url(http://www.blogblog.com/thisaway_rose/bg_main_wrapper.gif) repeat-y $startSide top;
+}
+
+#main-wrapper {
+  display: inline; /* fixes a strange ie margin bug */
+  float: $startSide;
+  margin-top: 0;
+  margin-$endSide: 0;
+  margin-bottom: 0;
+  margin-$startSide: 3px;
+  padding: 0;
+  width: 483px;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+
+#main {
+  padding-top: 22px;
+  padding-$endSide: 8px;
+  padding-bottom: 0;
+  padding-$startSide: 8px;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_content.gif) repeat-x $startSide top;
+}
+
+.post {
+  margin-top: 0;
+  margin-$endSide: 8px;
+  margin-bottom: 14px;
+  margin-$startSide: 21px;
+  padding: 0;
+  border-bottom: 3px solid #f7d8e2;
+}
+
+#comments {
+  margin-top: 0;
+  margin-$endSide: 16px;
+  margin-bottom: 14px;
+  margin-$startSide: 29px;
+  padding: 10px;
+  border: 1px solid #f0ced8;
+  background-color: #f5e4e9;
+}
+
+#sidebar-wrapper {
+  display: inline; /* fixes a strange ie margin bug */
+  float: $endSide;
+  margin-top: 0;
+  margin-$endSide: 3px;
+  margin-bottom: 0;
+  margin-$startSide: 0;
+  width: 269px;
+  color: $textColor;
+  line-height: 1.4em;
+  font-size: 90%;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_sidebar.gif) repeat-x $startSide top;
+  word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+  overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+
+#sidebar {
+  padding-top: 7px;
+  padding-$endSide: 11px;
+  padding-bottom: 0;
+  padding-$startSide: 14px;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_sidebar_arrow.gif) repeat-y 179px 0;
+}
+
+#sidebar .widget { 
+  margin-bottom: 20px;
+ }
+
+
+#footer-wrapper {
+  padding-top: 15px;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_footer_top.gif) no-repeat $startSide top;
+  clear: both;
+}
+
+#footer {
+  background: #491525 url(http://www.blogblog.com/thisaway_rose/bg_footer.gif) repeat-x $startSide top;
+  text-align: center;
+  min-height: 2em;
+}
+
+/* headings
+----------------------------------------------- */
+
+#header h1 {
+  margin: 0;
+  padding-top: 24px;
+  padding-$endSide: 0;
+  padding-bottom: 0;
+  padding-$startSide: 84px;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_header_$startSide.gif) no-repeat 16px 26px;
+}
+
+h2.date-header {
+  margin: 0;
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 0;
+  padding-$startSide: 29px;
+  text-transform: uppercase;
+  color: $dateHeaderColor;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_date.gif) no-repeat 13px 0;
+  font-size: 80%;
+  font-weight: normal;
+}
+
+.date-header span {
+  margin-top: 0;
+  margin-$endSide: 0;
+  margin-bottom: 0;
+  margin-$startSide: 5px;
+  padding-top: 0;
+  padding-$endSide: 25px;
+  padding-bottom: 0;
+  padding-$startSide: 25px;
+  background: url(http://www.blogblog.com/thisaway_rose/bg_date.gif) no-repeat $startSide 0;
+}
+
+.sidebar h2 {
+  padding-top: 1px;
+  padding-$endSide: 0;
+  padding-bottom: 0;
+  padding-$startSide: 36px;
+  color: $sidebarHeaderColor;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_sidebar_heading_$startSide.gif) no-repeat $startSide 45%;
+  font: $headerFont;
+}
+
+.sidebar .Profile h2 {
+  color: #95526a;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_sidebar_profileheading_$startSide.gif) no-repeat $startSide 45%;
+}
+
+.post h3 {
+  margin-top: 13px;
+  margin-$endSide: 0;
+  margin-bottom: 13px;
+  margin-$startSide: 0;
+  padding: 0;
+  color: $postTitleColor;
+  font-size: 140%;
+}
+
+.post h3 a, .post h3 a:visited { 
+  color: $postTitleColor;
+ }
+
+#comments h4 {
+  margin-top: 0;
+  font-size: 120%;
+}
+
+
+/* text
+----------------------------------------------- */
+
+#header h1 {
+  color: $blogTitleColor;
+  font: $pageTitleFont;
+}
+
+#header .description {
+  margin: 0;
+  padding-top: 7px;
+  padding-$endSide: 16px;
+  padding-bottom: 0;
+  padding-$startSide: 84px;
+  color: $blogDescriptionColor;
+  font: $blogDescriptionFont;
+}
+
+.post-body p {
+  line-height: 1.4em;
+  /* Fix bug in IE5/Win with italics in posts */
+  margin: 0;
+  height: 1%;
+  overflow: visible;
+}
+
+.post-footer {
+  font-size: 80%;
+  color: $dateHeaderColor;
+}
+
+.uncustomized-post-template .post-footer {
+  text-align: $endSide;
+}
+
+.uncustomized-post-template .post-footer .post-author,
+.uncustomized-post-template .post-footer .post-timestamp {
+  display: block;
+  float: $startSide;
+  text-align: $startSide;
+  margin-$endSide: 4px;
+}
+
+p.comment-author {
+  font-size: 83%;
+}
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+}
+
+.comment-body p {
+  line-height: 1.4em;
+}
+
+.feed-links { 
+  clear: both;
+  line-height: 2.5em;
+  margin-bottom: 0.5em;
+  margin-$startSide: 29px;
+}
+
+#footer .widget { 
+  margin: 0;
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 15px;
+  padding-$startSide: 55px;
+  color: #feeef3;
+  font-size: 90%;
+  line-height: 1.4em;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_footer.gif) no-repeat 16px 0;
+}
+
+
+/* lists
+----------------------------------------------- */
+
+.post ul {
+  padding-$startSide: 32px;
+  list-style-type: none;
+  line-height: 1.4em;
+}
+
+.post li {
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 4px;
+  padding-$startSide: 17px;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_list_item_$startSide.gif) no-repeat $startSide 3px;
+}
+
+#comments ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#comments li {
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 1px;
+  padding-$startSide: 17px;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat $startSide 3px;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.2em;
+  margin-$startSide: 0;
+}
+
+.sidebar li {
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 4px;
+  padding-$startSide: 17px;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_list_item.gif) no-repeat $startSide 3px;
+}
+
+#blog-pager-newer-link {
+  float: $startSide;
+  margin-$startSide: 29px;
+ }
+ 
+#blog-pager-older-link {
+  float: $endSide;
+  margin-$endSide: 16px;
+ }
+
+#blog-pager { 
+  text-align: center;
+ }
+
+/* links
+----------------------------------------------- */
+a {
+  color: $mainLinkColor;
+  font-weight: bold;
+}
+
+a:hover {
+  color: $mainVisitedLinkColor;
+}
+
+a.comment-link {
+/* ie5.0/win doesn't apply padding to inline elements,
+   so we hide these two declarations from it */
+  background/* */:/**/url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat $startSide 45%;
+  padding-$startSide: 14px;
+}
+
+html>body a.comment-link {
+  /* respecified, for ie5/mac's benefit */
+  background: url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat $startSide 45%;
+  padding-$startSide: 14px;
+}
+
+.sidebar a {
+  color: $sidebarLinkColor;
+}
+
+.sidebar a:hover {
+  color: $sidebarVisitedLinkColor;
+}
+
+
+#header h1 a {
+  color: #feeef3;
+  text-decoration: none;
+}
+
+#header h1 a:hover {
+  color: #d9b4c1;
+}
+
+.post h3 a {
+  text-decoration: none;
+}
+
+a img { 
+ border-width: 0;
+}
+
+.clear {
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+.profile-textblock { 
+  clear: both;
+  margin-bottom: 10px;
+  margin-$startSide: 0;
+}
+
+.profile-img { 
+  float: $startSide;
+  margin-top: 0;
+  margin-$endSide: 5px;
+  margin-bottom: 5px;
+  margin-$startSide: 0;
+  padding: 3px;
+  border: 1px solid #ebbdcc;
+}
+
+.profile-link { 
+  padding-top: 0;
+  padding-$endSide: 0;
+  padding-bottom: 0;
+  padding-$startSide: 17px;
+  background: url(http://www.blogblog.com/thisaway_rose/icon_profile_$startSide.gif) no-repeat $startSide 0;
+}
+
+/** Page structure tweaks for layout editor wireframe */
+
+body#layout #main,
+body#layout #sidebar { 
+  padding: 0;
+}
+]]></b:skin>
+    <base href='http://www.camillamorton.com'/>
+    <link href='/resources/css/site.css' rel='Stylesheet' type='text/css'/>
+    <link href='/resources/css/housing.css' rel='Stylesheet' type='text/css'/>
+    <style type='text/css'>
+      body{text-align:left}
+      #content-wrapper,#main,#sidebar-wrapper,#sidebar{background:none}
+      #main{padding:0}
+    </style>
+  </head>
+
+  <body>
+
+    <div id="Outer">
+        <div id="Main">
+            <p id="Logo"><a href="/" title="Back to Camilla Morton's homepage"><img src="/resources/images/camilla-morton.png" alt="Camilla Morton" title="Camilla Morton" /></a></p>
+            <div id="TopToolbar">
+                <p><img src="/resources/images/books.png" alt="Camilla Morton's books" /></p>    
+            </div>
+            <div id="BottomPH">
+                <div id="Bottom" class="cf">
+                    <div id="LeftToolbar">
+                        <ul>
+                            <li><a href="/" title="Camilla Morton's homepage"><img src="/resources/images/text/home.png" alt="Home" /></a></li>
+                            <li><a href="/camilla-mortons-biography/" title="Camilla Morton's Biography"><img src="/resources/images/text/biography.png" alt="Camilla Morton's Biography" /></a></li>
+                            <li><a href="/camilla-mortons-books/" title="Camilla Morton's Books"><img src="/resources/images/text/my-books.png" alt="Camilla Morton's Books" /></a></li>
+                            <li><a href="http://camillamorton.blogspot.com" title="Camilla Morton's Blog"><img src="/resources/images/text/my-blog.png" alt="Camilla Morton's Blog" /></a></li>
+                            <li><a href="/where-to-buy/" title="Where to buy Camilla Morton's books"><img src="/resources/images/text/where-to-buy.png" alt="Where to buy" /></a></li>
+                            <li><a href="/dedications/" title="Camilla Morton's Dedications"><img src="/resources/images/text/dedications.png" alt="Dedications" /></a></li>
+                            <li><a href="/testimonials/" title="Camilla Morton's Reviews"><img src="/resources/images/text/reviews.png" alt="Reviews" /></a></li>
+                            <li><a href="/contact-camilla-morton/" title="Contact Camilla Morton"><img src="/resources/images/text/contact-me.png" alt="Contact Camilla Morton" /></a></li>                    
+                        </ul>
+                    </div>
+                    <div id="ContentPH">
+                        <div id="Content">
+                            <h1 id='SectionTitlePH'>
+                              Camilla Morton&#39;s Blog
+                            </h1>
+                            <div id='BreadcrumbPH'>
+                              <ul class='cf'>
+                                <li>
+                                  <strong>You are here &gt;</strong>
+                                </li>
+                                <li>
+                                  <a href='/' title='Go back to homepage'>Home</a>
+                                </li>
+                                <li>
+                                  <span>&gt; Camilla Morton&#39;s Blog</span>
+                                </li>
+                              </ul>
+                            </div>    
+                            <div id='outer-wrapper'>
+                                <div id='wrap2'>
+                                    <!-- skip links for text browsers -->
+                                    <span id='skiplinks' style='display:none;'>
+                                    <a href='#main'>skip to main </a> |
+                                    <a href='#sidebar'>skip to sidebar</a>
+                                    </span>
+
+                                    <div id='content-wrapper'>
+                                    <div id='crosscol-wrapper' style='text-align:center'>
+                                        <b:section class='crosscol' id='crosscol' showaddelement='no'/>
+                                    </div>
+
+                                    <div id='main-wrapper'>
+                                        <b:section class='main' id='main' showaddelement='no'>
+                                            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'/>
+                                        </b:section>
+                                    </div>
+
+                                    <div id='sidebar-wrapper'>
+                                        <b:section class='sidebar' id='sidebar' preferred='yes'>
+                                            <b:widget id='Followers1' locked='false' title='Followers and Friends' type='Followers'/>
+                                            <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive'/>
+                                            <b:widget id='Profile1' locked='false' title='About Me' type='Profile'/>
+                                        </b:section>
+                                    </div>
+
+                                    <!-- spacer for skins that want sidebar and main to be the same height-->
+                                    <div class='clear'>&#160;</div>
+
+                                    </div> <!-- end content-wrapper -->
+                                </div>
+                            </div> <!-- end outer-wrapper -->
+                        </div>
+                    </div>
+                </div>
+                <div style="background:transparent url(/resources/images/bottom-fade.png) no-repeat bottom left;height:50px;width:100%"></div>
+            </div>
+            <div id="Footer">
+                <p class="smallprint">Designed and created by Matt Jones</p>
+            </div>            
+        </div>
+    </div>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-6262280-1");
+            pageTracker._setDomainName("none");
+            pageTracker._setAllowLinker(true);
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>          
+</body>
+</html>
